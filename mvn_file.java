@@ -8,9 +8,9 @@ public class App
     String password=rb.getString("password");
     
     if(in_user.equals(username) && in_pwd.equals(password))
-      return1;
+      return 1;
     else
-      return0;
+      return 0;
   }
   
 }
